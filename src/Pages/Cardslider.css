@@ -1,0 +1,120 @@
+
+.App{
+	display: flex;
+	flex-direction:row;
+	margin:0px;
+  }
+  
+  .cards {
+	display: flex;
+	flex-direction: column;
+	width: 157px;
+	height: 97px;
+	background-color: white;
+	border: 1px solid #ccc;
+	margin: 8px 8px;
+  }
+  .cards:hover{
+	border: 2px solid deeppink;
+  }
+  .cards p{
+	font-size: 8px;
+	display: flex;
+	justify-content: center;
+	background-color:whitesmoke;
+	margin: 10px 10px;
+	height: 15px;
+  }
+  .cards ul li{
+	font-size: 8px;
+	display: flex;
+	height: 12px;
+	margin-left: -27px;
+  }
+  .cards a{
+	font-size: 9px;
+	font-weight: 600;
+	font-family: sans-serif;
+	display: flex;
+	color: black;
+	justify-content: center;
+	margin-top: -11px;
+  }
+  
+  
+  .slider-btn {
+	padding: 0;
+	font-size: 20px;
+	text-align: center;
+	color: #b3b3b3;
+	width: 45px;
+	height: 100%;
+	border: 0;
+	cursor: pointer;
+	background: none;
+	outline: none;
+	position: absolute;
+	z-index: 999;
+	transition: all 0.6s ease 0s;
+  }
+  
+  .slider-btn:hover {
+	color: #5f5f5f;
+	background: rgba(0,0,0,0.2);
+  }
+  
+  .btn-r {
+	right: 0;
+  }
+  .btn-l {
+	left: 0px;
+  }
+  
+  .outerContainer {
+    width: 524px;
+    overflow: hidden;
+    margin-left: 3%;
+  }
+  .innerContainer {
+	display: flex;
+	width: 1400px;
+  }
+  .hidden-button{
+	  position: absolute;
+	  width: 38px;
+	  height: 35px;
+	  border-radius: 20px;
+	  z-index: 20;
+	  background-color: white;
+	  margin-top: -6%;
+	  margin-left: 39%;
+	 box-shadow: 0px 0px 10px 3px #ccc;
+  }
+  .hidden-button-left{
+	position: absolute;
+	width: 38px;
+	z-index: 20;
+	height: 35px;
+	border-radius: 20px;
+	background-color: white;
+	 margin-top: -6%;
+	 margin-left: -1%;
+	box-shadow: 0px 0px 10px 3px #ccc;
+}
+  .rightarrow{
+	font-size: 12px;
+    display: flex;
+    margin-left: 14px;
+    margin-top: 13px;
+    color: deeppink;
+    font-weight: 600;
+  }
+	 .slide{
+		
+		display: flex;
+		transition-duration: 2s;
+	 }
+	 .slide-wrapper{
+		width: 520px;
+		overflow: hidden;
+	 }

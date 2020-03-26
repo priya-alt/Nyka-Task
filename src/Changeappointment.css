@@ -1,0 +1,294 @@
+.change-appoint{
+    display: flex;
+    flex-direction: row;
+    width: max-content; 
+    background-color: white;
+    margin-left: 7%;
+    width: 42%;
+    height: 830px;
+}
+.buttons button{
+    font-size: 13px;
+    text-align: center;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    opacity: .7;
+    height: 30px;
+    margin-top: 1%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin: 15px 25px;
+}
+.top-btn:hover{
+border-bottom: 3px solid deeppink;
+}
+.top-btn{
+    border-bottom: 3px solid #ccc;
+}
+.buttons p{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 3.3%;
+    line-height: 20px;
+}
+.booking-part{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+    margin-left:10px;
+    margin-right:10px;
+}
+.booking{
+    display: flex;
+    flex-direction: column; 
+    margin:3px 15px; 
+}
+.booking h{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ccc;
+}
+.booking p{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+    line-height: 10px;
+}
+.location{
+    display:flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+.location h{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ccc;
+}
+div.a {
+    white-space: nowrap; 
+    width: 90px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 15px;
+  }
+  
+  div.a:hover {
+    overflow: visible;
+  }
+.details{
+    display: flex;
+    flex-direction: row;
+}
+.details p{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    opacity: .7;
+}
+.po-no{
+    display: flex;
+    flex-direction:column;
+    margin-top:8%;
+   margin-left: -12%;
+}
+.po-no p{
+    font-size:9px;
+    font-family: sans-serif;
+    border-bottom:2px solid #ccc;
+    width: 83px;
+    margin-top: 0%;
+    margin-left: -1px;
+}
+.po-no h{
+    font-size: 9px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ccc;   
+}
+.span{
+    font-size: 9px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ccc;
+    border-bottom: 2px solid #ccc;
+}
+.downarrow{
+  margin-left: 21px;
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 10px;
+  color: deeppink;
+}
+.down{
+    margin-left: 36px;
+    font-weight: 600;
+    line-height: 43px;  
+    font-size: 10px;
+    color: deeppink;
+}
+.quantity{
+    display: flex;
+    flex-direction:column;
+    margin-top: 6.8%;
+    margin-left: 0%;
+}
+.quant-unit{
+    margin-top: 5%;
+}
+.quant-unit h{
+    font-size: 9px;
+    margin-left: 24%;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ccc;
+}
+.quant-unit p{
+    font-size: 9px;
+    margin-left: 24%;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 0.6pc;
+    border-bottom: 2px solid #ccc;
+    width: 60%;
+}
+.closeout{
+    color: deeppink;
+    font-size: 15px;
+    display: flex;
+    margin-left: 10.8pc;
+    margin-top: -2pc;
+}
+.addanother{
+    display: flex;
+    flex-direction: column;
+}
+.addanother p{
+    font-size: 7px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: red;
+    opacity: .7;
+}
+.addanother span{
+    font-size: 9px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: deeppink;
+    margin-left: 3%;
+    line-height: 1px;
+}
+.eastimate{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.eastimate p{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ccc;
+   
+}
+.eastimate h{
+    font-size: 9px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 4%;
+    line-height: 0px;
+}
+.line{
+    width: 19%;
+    color:#ccc;
+    margin-left: 19px;
+    opacity: .4;
+}
+.btn-bottom p{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: sans-serif;
+    opacity:.7;
+}
+.btn-bottom button{
+    max-width: 540.8px;
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    opacity: .7;
+    opacity: .95;
+    padding: 20px;
+    background-color: deeppink;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: -1%;
+}
+.current-appoint{
+    width: 96%;
+    height: 40px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.current-appoint p{
+font-size: 10px;
+color: #ccc;
+font-weight: 600;
+}
+.current-appoint span{
+    font-size: 9px;
+    opacity: .5;
+    font-weight: 600;
+    display: flex;
+    margin-left: 16px;
+    margin-top: -8px;
+}
+.next-date{
+    display: flex;
+    flex-direction: column;
+}
+.next-date p{
+    font-size: 9px;
+    font-family: sans-serif;
+    font-weight: 600;
+   color: #ccc;
+}
+.calender button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: -35px;
+    width: 27%;
+    margin-left: 125%;
+    background-color: white;
+    color: deeppink;
+}
+.select-1{
+    width: 150px;
+    color: aqua;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+}

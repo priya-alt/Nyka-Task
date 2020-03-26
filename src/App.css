@@ -1,0 +1,28 @@
+.App{
+    display: flex;
+
+}
+body{
+    background-color:rgba(221,221,221,0.3 )
+}
+.dashboard{
+    padding: 5px 80px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: grey;
+}
+.dashboard ul{
+    display: flex;
+   flex-direction: row;
+   list-style:none;
+}
+.dashboard ul li{
+    padding: 0px 12px;
+}
+.edit{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    margin-left: 8%;
+    opacity: .7;
+}
