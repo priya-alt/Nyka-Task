@@ -14,7 +14,7 @@
     "react-big-calendar": "^0.24.1",
     "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.13.0",
-    "react-native": "^0.61.5",
+    "react-native": "^0.62.3",
     "react-native-datepicker-dialog": "0.0.9",
     "react-page-layout": "^0.9.8",
     "react-responsive-carousel": "^3.1.51",
